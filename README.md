@@ -1,6 +1,7 @@
 ![JavaScript Icon](https://i.imgur.com/EEUKRCp.png)
 
-![JavaScript Icon](https://i.imgur.com/EEUKRCp.png)
+# jsNotes
+JavaScript Notes
 
 ---
 
