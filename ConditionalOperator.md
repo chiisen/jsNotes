@@ -1,25 +1,25 @@
 ## 語法
-```javascript=
+```javascript
 condition ? exprIfTrue : exprIfFalse
 ```
 
 ## 參數
-```javascript=
+```javascript
 condition
 值用來做為條件的表達式
 ```
 
-```javascript=
+```javascript
 exprIfTrue
 如果 condition 的值是 true , exprIfTrue  會被執行
 ```
-```javascript=
+```javascript
 exprIfFalse
 如果 condition 的值是 false , exprIfFalse  會被執行
 ```
 
 ## 範例
-```javascript=
+```javascript
 var age = 26;
 var beverage;
 if (age >= 21) {
@@ -32,7 +32,7 @@ console.log(beverage); // "Beer"
 
 Equivalent to:
 
-```javascript=
+```javascript
 var age = 26;
 var beverage = (age >= 21) ? "Beer" : "Juice";
 console.log(beverage); // "Beer"
@@ -41,7 +41,7 @@ console.log(beverage); // "Beer"
 ---
 
 ### 條件鏈
-```javascript=
+```javascript
 function example(…) {
     return condition1 ? value1
          : condition2 ? value2
@@ -52,7 +52,7 @@ function example(…) {
 
 Equivalent to:
 
-```javascript=
+```javascript
 function example(…) {
     if (condition1) { return value1; }
     else if (condition2) { return value2; }
